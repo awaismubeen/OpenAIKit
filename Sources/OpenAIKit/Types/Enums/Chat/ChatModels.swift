@@ -47,6 +47,7 @@ public enum ChatModels: String, CustomStringConvertible {
     /// Similar capabilities to text-davinci-003 but trained with supervised fine-tuning instead of reinforcement learning
     case textDavinci002 = "text-davinci-002"
 
+    case model4OMini = "gpt-4o-mini"
 
     // MARK: GPT-4 Models
 
@@ -74,7 +75,8 @@ public enum ChatModels: String, CustomStringConvertible {
             "gpt-4": 8192,
             "gpt-4-0613": 8192,
             "gpt-4-32k": 32768,
-            "gpt-4-32k-0613": 32768
+            "gpt-4-32k-0613": 32768,
+            "gpt-4o-mini":2048
         ]
     }
 
