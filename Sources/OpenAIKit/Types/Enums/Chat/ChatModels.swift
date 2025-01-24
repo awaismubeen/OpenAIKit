@@ -66,7 +66,7 @@ public enum ChatModels: String, CustomStringConvertible {
     /// The maximum tokens the models can read
     public var maxTokens: [String : Int] {
         [
-            "gpt-3.5-turbo": 4096,
+            "gpt-3.5-turbo": 50,
             "gpt-3.5-turbo-16k": 16384,
             "gpt-3.5-turbo-0613": 4096,
             "gpt-3.5-turbo-16k-0613": 16384,
@@ -76,7 +76,7 @@ public enum ChatModels: String, CustomStringConvertible {
             "gpt-4-0613": 8192,
             "gpt-4-32k": 32768,
             "gpt-4-32k-0613": 32768,
-            "gpt-4o-mini":2048
+            "gpt-4o-mini":50
         ]
     }
 
